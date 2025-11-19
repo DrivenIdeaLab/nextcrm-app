@@ -18,6 +18,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1-staging] - 2025-11-09
+
+### 🚀 UAT & CI/CD Enhancements
+
+**Summary**: Extended UAT coverage, performance/load testing foundation, CI/CD workflow updates, and documentation improvements to solidify the staging release quality.
+
+### Added
+- Automated UAT suite with 19 scenarios covering auth, RBAC, billing, multi-tenancy, documents, and integrations
+- Performance & load testing framework and scripts for critical flows
+- GitHub Actions updates for CI/CD with improved build/test pipeline reliability
+- Comprehensive integration tests for 8 new/updated services
+
+### Changed
+- Build system maintenance including dependency and lockfile updates
+- Minor stability improvements across server actions and API routes
+
+### Documentation
+- Updated README, ARCHITECTURE, DEPLOYMENT_QA, and GAP_ANALYSIS with latest implementation details
+- Added UAT completion summary and test coverage notes
+
+### Notes
+- No data loss; local commits safely merged into `main`
+- Multi-tenant architecture validated through expanded UAT scenarios
+
+---
 ## [1.0.0-staging] - 2025-11-04
 
 ### 🎉 Major Release: AWMS Staging Deployment
